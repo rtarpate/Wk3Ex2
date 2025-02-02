@@ -9,7 +9,6 @@ while (true)
 {
     
 
-
     //promts user input to roll dice
     Console.WriteLine(" do you want to roll a dice ");
     Console.WriteLine(" For yes input 1, For no input 2, ");
@@ -37,14 +36,14 @@ while (true)
 
 
     }
-    
+    //promts user to exit the program
+    else if (userinput == 2)
+    {
+        //outputs final lines
+        Console.WriteLine("Thank you for playing");
+        Console.ReadLine();
+
+
+    }
 }
-//promts user to exit the program
- else if (userinput == 2)
- {
-     //outputs final lines
-     Console.WriteLine("Thank you for playing");
-     Console.ReadLine();
 
-
- }

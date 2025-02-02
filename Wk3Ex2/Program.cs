@@ -1,10 +1,13 @@
-﻿while (true)
-{
-    //declares variable user input for yes
-    double userinput;
+﻿//declares variable user input for yes
+double userinput;
 
-    //declares varibale dice/random number
-    Random Dice = new Random();
+//declares varibale dice/random number
+Random Dice = new Random();
+
+
+while (true)
+{
+    
 
 
     //promts user input to roll dice
@@ -34,14 +37,14 @@
 
 
     }
-    //promts user to exit the program
-    else if (userinput == 2)
-    {
-        //outputs final lines
-        Console.WriteLine("Thank you for playing");
-        Console.ReadLine();
-
-
-    }
+    
 }
+//promts user to exit the program
+ else if (userinput == 2)
+ {
+     //outputs final lines
+     Console.WriteLine("Thank you for playing");
+     Console.ReadLine();
 
+
+ }

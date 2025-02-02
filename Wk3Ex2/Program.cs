@@ -41,9 +41,8 @@ while (true)
     {
         //outputs final lines
         Console.WriteLine("Thank you for playing");
-        Console.ReadLine();
-
-
+        break;
+       
     }
 }
 
